@@ -6,7 +6,7 @@ There are two files in the data folder that shows the initial json data that wil
 I couldn't manage to use any spiffs uploader tool, so I use that function to write the one time data.
 * Uncomment the line where the [write function is called](https://github.com/Teiyem/homex-esp-iot-sensor/blob/7c0f2f919db802ab5af5338eb3809bb50d2c9bf8/components/device/device.cpp#L745).
 * Upload the code and comment the line back and upload again.
-* The sc_key is used for smart config and the crypt_key is used for encryption and decryption located in the keys folder.
+* The sc_key is used for smart config and the crypt_key is used for encryption and decryption.
 
 ## Workflow
 * The device will be in setup mode (running smart config).
