@@ -23,9 +23,6 @@ void IRAM_ATTR device_task(void *param)
 {
 	ESP_LOGI(tag, "%s -> Device Task running", __func__);
 
-	uint32_t last_check = 0;
-	uint32_t check_period = 8000;
-
 	while (true)
 	{
 		device->handle();
@@ -40,9 +37,6 @@ void IRAM_ATTR device_task(void *param)
 void IRAM_ATTR network_task(void *param)
 {
 	ESP_LOGI(tag, "%s -> Network Task running", __func__);
-
-	uint32_t last_check = 0;
-	uint32_t check_period = 8000;
 
 	while (true)
 	{

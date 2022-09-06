@@ -3,4 +3,4 @@
 #
 # (Uses default behaviour of compiling all source files in directory, adding 'include' to include path.)
 
-COMPONENT_EMBED_TXTFILES :=  ${PROJECT_PATH}/data/sc_key
+COMPONENT_EMBED_TXTFILES :=  ${PROJECT_PATH}/keys/sc_key

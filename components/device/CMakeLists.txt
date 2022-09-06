@@ -5,4 +5,4 @@ idf_component_register(SRCS "device.cpp"
                        REQUIRES "esp_common" "json" "nvs_flash" "spiffs"
                        PRIV_REQUIRES "util")
 
-EMBED_TXTFILES ${project_dir}/data/crypt_key
+EMBED_TXTFILES ${project_dir}/keys/crypt_key
