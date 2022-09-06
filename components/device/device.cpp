@@ -757,8 +757,8 @@ void Device::init(void)
 }
 
 /**
- * Loop function
- * Handles restarting the device and configuring the sntp
+ * Loop function.
+ * Handles restarting the device and configuring the sntp.
  */
 void Device::handle(void)
 {
