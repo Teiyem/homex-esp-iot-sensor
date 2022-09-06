@@ -1,0 +1,15 @@
+{
+    "firmware" : "hx-iot",
+    "type" : "climate-sensor",
+    "hardware" : "esp8266",
+    "attributes": [
+        {
+            "name": "temp",
+            "type": "int"
+        },
+        {
+            "name": "humidity",
+            "type": "int"
+        }
+    ]
+}
