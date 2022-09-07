@@ -1,5 +1,5 @@
 # Homex Esp IoT Sensor
-Temperature and humidity IoT device based on the ESP8266 RTOS SDK.
+Temperature and humidity IoT firmware based on the ESP8266 RTOS SDK.
 
 ## Getting started
 There are two files in the data folder that shows the initial json data that will be written to the storage as can be seen here in the [write function](https://github.com/Teiyem/homex-esp-iot-sensor/blob/7c0f2f919db802ab5af5338eb3809bb50d2c9bf8/components/device/device.cpp#L604).
