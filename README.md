@@ -13,7 +13,7 @@ I couldn't manage to use any spiffs uploader tool, so I use that function to wri
 * The device receives wifi credentials via smart config, as well as the device's friendly name and host (server) IP address from the user-defined reserved data.
 * After smart config is completed, the device will restart.
 * When the device connects to WiFi, it will attempt to obtain an API key from the server.
-* After retrieving the key, the device will send sensor data to the server on a regular basis (every 6 minutes).
+* After retrieving the key, the device will send sensor data to the server on a regular basis (according to the set interval).
 * The device will host a web server from which device's information, configuration, and sensor data can be retrieved.
 
 ## Features
